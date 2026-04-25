@@ -69,7 +69,7 @@ All data comes from `yc-oss.github.io/api` (community-maintained, sourced from Y
 
 ## Key Notes
 
-- `data/` is gitignored - re-run scraper to regenerate
+- `data/` is checked into git - re-run scraper to refresh
 - Scraper is re-runnable and idempotent (overwrites on each run)
 - All notebooks live in `notebooks/` and read from `../data/` (relative path)
 - New notebooks should follow naming: `NN-topic.ipynb`
